@@ -13,12 +13,12 @@ public:
 
     int x, y;
     bool isFirst;
-    bool isChess;
-    CheckerBoard checherBoard;
+    bool turn;//0表示白棋，1表示黑棋
+    CheckerBoard* checkerBoard;
 
     void paintEvent(QPaintEvent *event) override;
     void mousePressEvent(QMouseEvent *event) override;
-    void mouseMoveEvent(QMouseEvent *event) override;
+//    void mouseMoveEvent(QMouseEvent *event) override;
 
 signals:
 
