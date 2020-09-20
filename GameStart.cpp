@@ -13,11 +13,11 @@ GameStart::GameStart(QWidget *parent)
 
     b1.setParent(this);
     b1.setText("游戏规则");
-    b1.setGeometry(450, 300, 100, 30);
+    b1.setGeometry(450, 400, 100, 30);
 
     b2.setParent(this);
     b2.setText("开始游戏");
-    b2.setGeometry(450, 400, 100, 30);
+    b2.setGeometry(450, 300, 100, 30);
 
     box.setWindowTitle("游戏规则");
     box.setText("双方分别使用黑白两色的棋子，下在棋盘直线与横线的交叉点上，先形成六子连线者获胜。");
